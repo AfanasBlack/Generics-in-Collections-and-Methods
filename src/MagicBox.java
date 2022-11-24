@@ -1,13 +1,9 @@
 import java.util.Random;
 
 public class MagicBox<T> {
-
     protected int x;
-
     protected int maxObject;
-
     protected T[] items;
-
     Random random = new Random();
 
     public MagicBox(int maxObject) {
